@@ -174,6 +174,7 @@ placeOrder() {
     print(" $meals succesfully added to cart");
     orders.add(meals);
     bill();
+    displayInfo();
   } else {
     print("We do not have this meal");
   }
